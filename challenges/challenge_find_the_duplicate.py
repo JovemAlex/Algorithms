@@ -1,3 +1,3 @@
 def find_duplicate(nums):
-    """Faça o código aqui."""
-    raise NotImplementedError
+    if not nums or not isinstance(nums, int):
+        return False
